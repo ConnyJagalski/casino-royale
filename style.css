@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(90, 207, 99), rgb(71, 67, 67));
+    display: flex;
+}
+
+main, aside {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+#win {
+    height: 5rem;
+    width: 5rem;
+    border: solid 2px black;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
